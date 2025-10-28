@@ -22,15 +22,18 @@ Help Company X identify traits of high-performing employees and find individuals
 ## 🧩 Repository Structure
 talent-match-intelligence/
 ├─ sql/
-│ ├─ Success-Score-DA-Rakamin.sql # create success_score table
-│ └─ input-user.sql # create talent_benchmarks table
+│ ├─ Success-Score-DA-Rakamin.sql # create success_score table (run first)
+│ └─ input-user.sql # create talent_benchmarks table (run second)
+│
 ├─ reports/
-│ └─ Case_Study_Report.pdf
-├─ app.py
-├─ requirements.txt
-├─ service-account.json # GCP credentials 
-├─ example.env # stores only OPENROUTER_API_KEY
-└─ README.md
+│ └─ Case_Study_Report.pdf # final case study presentation deck
+│
+├─ app.py # Streamlit dashboard (main app)
+├─ requirements.txt # Python dependencies
+│
+├─ service-account.json # GCP credentials (private, not uploaded)
+├─ example.env # sample format for OpenRouter API key
+└─ README.md # documentation & setup guide
 
 ## Tech Stack
 - **Data Warehouse:** Google BigQuery
@@ -80,3 +83,9 @@ talent-match-intelligence/
    ```bash
    streamlit run app/app.py
    ```
+
+> ⚠️ **Notes for Reviewer:**  
+> - The files `service-account.json` (Google Cloud credentials) and the real `.env` (containing the actual OpenRouter API key) are **intentionally excluded** from this repository to protect sensitive credentials and comply with data security best practices.  
+> - These files are required **only for local execution** and are safely stored in the author’s local environment.  
+> - A sample `.env` format is provided (`example.env`) so you can understand the expected variable structure without exposing any private keys.
+> - You can still fully review the SQL logic, dashboard code, and project documentation through this public repository.
