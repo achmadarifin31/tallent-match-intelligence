@@ -11,6 +11,8 @@ This project builds an explainable **SuccessScore** (SQL in BigQuery) and an **A
 - `sql/input-user.sql` — Step-2 SuccessScore logic (weighted)
 - `reports/Case_Study_Report.pdf` — Final consulting-grade deck
 - `example.env` — Sample `.env` format (no real keys)
+- 📘 [Colab Notebook – Step 1: Success Pattern Discovery](https://colab.research.google.com/drive/1pFJnN7hCbllWqZsN5msHPhcRl-F0jxAY)
+- 🐙 [GitHub Repository – Talent Match Intelligence](https://github.com/achmadarifin31/tallent-match-intelligence.git)
 
 ## Tech Stack
 - **Data Warehouse:** Google BigQuery
