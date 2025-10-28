@@ -20,20 +20,19 @@ Help Company X identify traits of high-performing employees and find individuals
 ---
 
 ## 🧩 Repository Structure
-talent-match-intelligence/
-├─ sql/
-│ ├─ Success-Score-DA-Rakamin.sql # create success_score table (run first)
-│ └─ input-user.sql # create talent_benchmarks table (run second)
+📦 talent-match-intelligence/
+├── sql/
+│   ├── Success-Score-DA-Rakamin.sql      # create success_score table (run first)
+│   └── input-user.sql                    # create talent_benchmarks table (run second)
 │
-├─ reports/
-│ └─ Case_Study_Report.pdf # final case study presentation deck
+├── reports/
+│   └── Case_Study_Report.pdf             # final case study presentation deck
 │
-├─ app.py # Streamlit dashboard (main app)
-├─ requirements.txt # Python dependencies
-│
-├─ service-account.json # GCP credentials (private, not uploaded)
-├─ example.env # sample format for OpenRouter API key
-└─ README.md # documentation & setup guide
+├── app.py                                # Streamlit dashboard (main app)
+├── requirements.txt                      # Python dependencies
+├── service-account.json                  # GCP credentials (private, not uploaded)
+├── example.env                           # sample format for OpenRouter API key
+└── README.md                             # documentation & setup guide
 
 ## Tech Stack
 - **Data Warehouse:** Google BigQuery
