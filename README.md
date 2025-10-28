@@ -20,7 +20,7 @@ Help Company X identify traits of high-performing employees and find individuals
 ---
 
 ## 🧩 Repository Structure
-📦 talent-match-intelligence/
+talent-match-intelligence/
 ├── sql/
 │   ├── Success-Score-DA-Rakamin.sql      # create success_score table (run first)
 │   └── input-user.sql                    # create talent_benchmarks table (run second)
