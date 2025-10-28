@@ -8,7 +8,7 @@ This project builds an explainable **SuccessScore** (SQL in BigQuery) and an **A
 ## Repository Map
 - `app/app.py` — Streamlit dashboard (reads precomputed `success_score` from BigQuery)
 - `sql/success_explore.sql` — Step-1 exploration queries (gap/heatmap basis)
-- `sql/match.sql` — Step-2 SuccessScore logic (weighted)
+- `sql/input-user.sql` — Step-2 SuccessScore logic (weighted)
 - `reports/Case_Study_Report.pdf` — Final consulting-grade deck
 - `example.env` — Sample `.env` format (no real keys)
 
