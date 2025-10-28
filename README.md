@@ -6,7 +6,7 @@ Study Case Data Analyst - Achmad Nurs Syururi Arifin
 This project builds an explainable **SuccessScore** (SQL in BigQuery) and an **AI-powered dashboard** (Streamlit) to identify what differentiates top performers and support succession planning.
 
 ## Repository Map
-- `app/app.py` — Streamlit dashboard (reads precomputed `success_score` from BigQuery)
+- `app.py` — Streamlit dashboard (reads precomputed `success_score` from BigQuery)
 - `sql/success_explore.sql` — Step-1 exploration queries (gap/heatmap basis)
 - `sql/input-user.sql` — Step-2 SuccessScore logic (weighted)
 - `reports/Case_Study_Report.pdf` — Final consulting-grade deck
