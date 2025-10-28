@@ -1,6 +1,7 @@
 streamlit
 pandas
-numpy
 plotly
+altair
+python-dotenv
 google-cloud-bigquery
 requests
